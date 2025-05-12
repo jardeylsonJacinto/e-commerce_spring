@@ -1,6 +1,5 @@
 package com.acc.customer.exceptions;
 
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
