@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 
-import com.acc.customer.exceptions.CustomerNotFoundException;
+import com.acc.customer.handler.exceptions.CustomerNotFoundException;
 import com.acc.customer.infra.CustomerMapper;
 import com.acc.customer.model.Customer;
 import com.acc.customer.repository.CustomerRepository;
