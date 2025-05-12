@@ -1,0 +1,35 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "DiscoveryApplication",
+      "request": "launch",
+      "mainClass": "com.acc.discovery.DiscoveryApplication",
+      "projectName": "com.acc-discovery"
+    },
+    {
+      "type": "java",
+      "name": "ConfigServerApplication",
+      "request": "launch",
+      "mainClass": "com.acc.config_server.ConfigServerApplication",
+      "projectName": "config-server"
+    },
+    {
+      "type": "java",
+      "name": "CustomerApplication",
+      "request": "launch",
+      "mainClass": "com.acc.customer.CustomerApplication",
+      "projectName": "customer"
+    }
+  ]
+}
