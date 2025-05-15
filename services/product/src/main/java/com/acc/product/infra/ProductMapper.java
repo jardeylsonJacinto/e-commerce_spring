@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 
 import com.acc.product.models.Category;
 import com.acc.product.models.Product;
+import com.acc.product.utils.ProductPurchaseResponse;
 import com.acc.product.utils.ProductRequest;
 import com.acc.product.utils.ProductResponse;
 
@@ -35,4 +36,12 @@ public class ProductMapper {
         product.getCategory().getDescription());
   }
 
+  public ProductPurchaseResponse toproductPurchaseResponse(Product product, double quantity) {
+    return new ProductPurchaseResponse(
+        product.getId(),
+        product.getName(),
+        product.getDescription(),
+        product.getPrice(),
+        quantity);
+  }
 }
